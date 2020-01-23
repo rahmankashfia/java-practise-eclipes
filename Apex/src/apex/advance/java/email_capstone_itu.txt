@@ -1,0 +1,54 @@
+MedaNagesh, Abhijith    medaabhi2501@students.itu.edu
+    "Live Visitor Tracking System for Ecommerce Website"
+Shridatta, Abhinav      shridattaabhin2587@students.itu.edu
+    "Tourism Recommendation System"
+Chaman, Ada             chamanada2610@students.itu.edu
+    "Skin Cancer Detection"
+Shah, Aneri             anerishah2670@students.itu.edu
+    "Online Survey Systems"
+Vargas, Christian       vargaschris2603@students.itu.edu
+    "WebApp to perform -> Natural Language Understanding -> using text analysis for social media platforms"
+Uslu, Egemen            usluegeme2464@students.itu.edu
+    "Pattern Detection in Time Series Data"
+Palma, Eric             palmaeric2254@students.itu.edu
+    "Web app to connect people in need with philanthropic donors"
+Liang, Han              lianghan1982@students.itu.edu
+    "Localized services in your life abroad"
+Erokyar, Hasan          erokyarhasan1428@students.itu.edu
+    "Forecasting Stock Prices using Deep Learning"
+Jian, Jinghui           jianjingh2645@students.itu.edu
+    "Investigating performance of different backend services, like Node, Java, Go, PHP, etc."
+Rahman, Kashfia         rahmankashf32@students.itu.edu
+    "Analyze personal email account content to improve the quality of life by ranking and positioning the lifestyle"
+Chilkuri, Mohan         chilkurimohan2594@students.itu.edu
+    "Building Restful Api using NoSQL database"
+Bhat, Nagashree         bhatnagas2641@students.itu.edu
+    "Web page Depth Viewability Prediction using Deep Sequential Neural Networks"
+Kalidindi, Naina        kalidindinaina2655@students.itu.edu
+    "Cryptocurrency Price Prediction Using Twitter Sentiment Analysis"
+Klimov, Nikolai         klimovnikol2490@students.itu.edu
+    "Design and development of a REST-based API for web application (front-end and back-end integration)"
+Patel, Payalben         patelpayal2646@students.itu.edu
+    "Sentimental Analysis of Amazon Product Reviews"
+Deshmukh, Poonam        deshmukhpoona2261@students.itu.edu
+    "Application to provide Vegan ingredient alternatives in recipes"
+Suresh, Priyanka        sureshpriya2314@students.itu.edu
+    "GoAway Web App"
+Qin, Qin                qinqin2465@students.itu.edu
+    "Copy-cat App – A game with your pet cat based on face recognition technique"
+Kolli, Renu Sushma      kollirenu2068@students.itu.edu
+    "The complexities of wildfires"
+Demirci, Seyfullah      demirciseyfu2264@students.itu.edu
+    "Performance comparison between cross-platform development tools and native development tools for mobile applications"
+Busani, Sridhar         busanisridh2608@students.itu.edu
+    "Data Migration from a Licensed database to Open source Database"
+Katira, Utsav Deepak    katirautsav2639@students.itu.edu
+    "Price Comparison Website for Online Shopping"
+Xu, Xiangmin            xuxiang2498@students.itu.edu
+    Relational Database Architecture"
+Huang, Xin              huangxin1657@students.itu.edu
+    "Machine Learning in Credit Card Fraud Detection"
+Qiu, Yinan              qiuyinan2342@students.itu.edu
+    "Consensus Algorithms (for Blockchain Networks)"
+Han, Juncheng           hanjunch2303@students.itu.edu
+    "A recommendation system for choosing the best airbnb place while traveling"

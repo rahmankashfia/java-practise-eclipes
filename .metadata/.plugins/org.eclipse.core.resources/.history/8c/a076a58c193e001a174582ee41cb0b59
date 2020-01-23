@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://service.user.apex.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://service.user.apex.com" xmlns:intf="http://service.user.apex.com" xmlns:tns1="http://vo.service.user.apex.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://service.user.apex.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://vo.service.user.apex.com"/>
+   <element name="getDate">
+    <complexType/>
+   </element>
+   <element name="getDateResponse">
+    <complexType>
+     <sequence>
+      <element name="getDateReturn" type="xsd:date"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="add">
+    <complexType>
+     <sequence>
+      <element name="i" type="xsd:int"/>
+      <element name="j" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addResponse">
+    <complexType>
+     <sequence>
+      <element name="addReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="sayHello">
+    <complexType/>
+   </element>
+   <element name="sayHelloResponse">
+    <complexType>
+     <sequence>
+      <element name="sayHelloReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="sayHelloWithName">
+    <complexType>
+     <sequence>
+      <element name="s" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="sayHelloWithNameResponse">
+    <complexType>
+     <sequence>
+      <element name="sayHelloWithNameReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getEmployee">
+    <complexType/>
+   </element>
+   <element name="getEmployeeResponse">
+    <complexType>
+     <sequence>
+      <element name="getEmployeeReturn" type="tns1:Employee"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+  <schema elementFormDefault="qualified" targetNamespace="http://vo.service.user.apex.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <complexType name="Employee">
+    <sequence>
+     <element name="address" nillable="true" type="xsd:string"/>
+     <element name="firstName" nillable="true" type="xsd:string"/>
+     <element name="id" type="xsd:int"/>
+     <element name="lastName" nillable="true" type="xsd:string"/>
+     <element name="salary" type="xsd:long"/>
+     <element name="zipcode" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getEmployeeRequest">
+
+      <wsdl:part element="impl:getEmployee" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getEmployeeResponse">
+
+      <wsdl:part element="impl:getEmployeeResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getDateRequest">
+
+      <wsdl:part element="impl:getDate" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloResponse">
+
+      <wsdl:part element="impl:sayHelloResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addResponse">
+
+      <wsdl:part element="impl:addResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloWithNameResponse">
+
+      <wsdl:part element="impl:sayHelloWithNameResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloRequest">
+
+      <wsdl:part element="impl:sayHello" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getDateResponse">
+
+      <wsdl:part element="impl:getDateResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addRequest">
+
+      <wsdl:part element="impl:add" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloWithNameRequest">
+
+      <wsdl:part element="impl:sayHelloWithName" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="TestService">
+
+      <wsdl:operation name="getDate">
+
+         <wsdl:input message="impl:getDateRequest" name="getDateRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getDateResponse" name="getDateResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="add">
+
+         <wsdl:input message="impl:addRequest" name="addRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addResponse" name="addResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="sayHello">
+
+         <wsdl:input message="impl:sayHelloRequest" name="sayHelloRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:sayHelloResponse" name="sayHelloResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="sayHelloWithName">
+
+         <wsdl:input message="impl:sayHelloWithNameRequest" name="sayHelloWithNameRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:sayHelloWithNameResponse" name="sayHelloWithNameResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getEmployee">
+
+         <wsdl:input message="impl:getEmployeeRequest" name="getEmployeeRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getEmployeeResponse" name="getEmployeeResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="TestServiceSoapBinding" type="impl:TestService">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getDate">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getDateRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getDateResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="add">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="sayHello">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="sayHelloRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="sayHelloResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="sayHelloWithName">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="sayHelloWithNameRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="sayHelloWithNameResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getEmployee">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getEmployeeRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getEmployeeResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="TestServiceService">
+
+      <wsdl:port binding="impl:TestServiceSoapBinding" name="TestService">
+
+         <wsdlsoap:address location="http://localhost:8080/user-service/services/TestService"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

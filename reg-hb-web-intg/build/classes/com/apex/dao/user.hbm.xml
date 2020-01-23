@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE hibernate-mapping SYSTEM
+			"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+<hibernate-mapping>
+	<class name="com.spring.entity.User" table="user_login">
+		<id name="id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="name"></property>
+		<property name="password"></property>
+		<property name="email"></property>
+	</class>
+
+</hibernate-mapping>  

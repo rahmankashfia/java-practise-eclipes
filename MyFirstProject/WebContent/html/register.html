@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>User Registration</title>
+</head>
+<body>
+	<form action="/MyFirstProject/register" method="post">  
+  
+		Name:<input type="text" name="userName"/><br/><br/>  
+		Password:<input type="password" name="userPass"/><br/><br/>  
+		Email Id:<input type="text" name="userEmail"/><br/><br/>  
+		Country:
+		<select name="userCountry">  
+			<option>India</option>  
+			<option>Pakistan</option>  
+			<option>Bangladesh</option>  
+			<option>other</option>  
+		</select>  
+		<label for="gender">Gender</label><br>
+  		<input type="radio" name="gender" value="male" ><label>Male</label><br>
+  		<input type="radio" name="gender" value="female" checked><label>Female</label><br>
+		<br/><br/>  
+		<input type="submit" value="register"/>  
+	</form>  
+</body>
+</html>

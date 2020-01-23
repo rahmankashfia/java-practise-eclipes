@@ -1,0 +1,29 @@
+package com.apex.user.dao;
+
+import com.apex.user.entity.User;
+import com.apex.user.util.HibernateUtil;
+import com.mysql.cj.Session;
+
+public class UserDao {
+	public User getUser(int id) {
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		
+		return null;
+		
+	}
+	
+	public void addUser(User user) {
+		
+		
+	}
+	
+	public void updateUser(int id) {
+		
+		
+	}
+	
+	public void deleteUser(int id) {
+	
+		
+	}
+}

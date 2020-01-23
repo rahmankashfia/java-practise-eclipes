@@ -1,0 +1,7 @@
+package com.apex.user.service;
+import com.apex.user.service.TestServiceProxy;
+public class UserServiceClient {
+	TestServiceProxy proxy = new TestServiceProxy();
+	proxy.
+
+}

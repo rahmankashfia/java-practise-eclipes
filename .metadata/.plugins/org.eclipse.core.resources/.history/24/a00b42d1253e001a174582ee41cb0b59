@@ -1,0 +1,14 @@
+package com.apex.user.service;
+import java.rmi.RemoteException;
+
+import com.apex.user.service.TestServiceProxy;
+public class UserServiceClient {
+	
+	public static void main(String[] args) throws RemoteException {
+		TestServiceProxy pr = new TestServiceProxy();
+		pr.sayHello();
+		pr.sayHelloWithName("Kashfia");
+		pr.add(3, 4);
+		
+	}
+}

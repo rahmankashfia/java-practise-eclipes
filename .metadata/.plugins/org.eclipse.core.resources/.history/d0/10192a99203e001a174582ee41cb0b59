@@ -1,0 +1,11 @@
+package com.apex.user.service;
+import com.apex.user.service.TestServiceProxy;
+public class UserServiceClient throws RemoteException {
+	
+	TestServiceProxy pr = new TestServiceProxy();
+	pr.sayHello();
+	
+	
+	
+
+}

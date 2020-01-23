@@ -1,0 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:useBean id="obj" scope="session" class="com.apex.entity.User"></jsp:useBean>  
+<jsp:setProperty property="*" name="obj"/>  
+<<jsp:forward page="/UserController"></jsp:forward>

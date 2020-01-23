@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>MyFirstProject</display-name>
+  <servlet>
+    <servlet-name>sample</servlet-name>
+    <servlet-class>com.as.samples.Sample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sample</servlet-name>
+    <url-pattern>/sample</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>com.as.samples.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>personal</servlet-name>
+    <servlet-class>com.as.samples.Personal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>personal</servlet-name>
+    <url-pattern>/personal</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>profile</servlet-name>
+    <servlet-class>com.as.samples.ShowProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>profile</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>register.html</welcome-file>
+  </welcome-file-list>
+</web-app>

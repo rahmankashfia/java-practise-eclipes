@@ -1,0 +1,32 @@
+package com.apex.user.dao;
+
+import com.apex.user.vo.User;
+
+public class UserDAOImpl implements UserDAO {
+	UserDAO userDAO = null;
+
+	@Override
+	public User getUser(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addUser(User user) {
+		// TODO Auto-generated method stub
+		return;
+	}
+
+	@Override
+	public void deleteUser(int id) {
+		// TODO Auto-generated method stub
+		return;
+	}
+
+	@Override
+	public void updateUser(int id) {
+		// TODO Auto-generated method stub
+		return;
+	}
+
+}

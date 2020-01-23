@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="client" class="com.apex.client.BasicCalcClient">
+		<property name="calc">
+			<ref bean="server" />
+		</property>
+	</bean>
+	
+<bean id="server" class="com.apex.server.BasicCalc" />
+
+		
+</beans>

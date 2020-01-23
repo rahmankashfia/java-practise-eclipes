@@ -1,0 +1,5 @@
+package com.apex.user.util;
+
+public class HibernateUtil {
+
+}

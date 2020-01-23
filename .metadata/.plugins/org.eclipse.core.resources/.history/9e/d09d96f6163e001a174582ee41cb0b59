@@ -1,0 +1,5 @@
+package com.apex.user.service.vo;
+
+public class Employee {
+
+}

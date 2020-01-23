@@ -1,0 +1,37 @@
+package com.apex.user.bo;
+
+import com.apex.user.dao.UserDAO;
+import com.apex.user.dao.UserDAOImpl;
+import com.apex.user.vo.User;
+
+public class UserBOImpl implements UserBO {
+
+	@Override
+	public User getUser(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addUser(User user) {
+		// TODO Auto-generated method stub
+		UserDAO userDAO = new UserDAOImpl();
+		userDAO.addUser(user);
+		
+		
+	}
+
+	@Override
+	public void deleteUser(int id) {
+		// TODO Auto-generated method stub
+		return;
+		
+	}
+
+	@Override
+	public void updateUser(int id) {
+		// TODO Auto-generated method stub
+		return;
+	}
+
+}

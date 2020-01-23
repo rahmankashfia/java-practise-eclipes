@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Calculator</title>
+</head>
+<body>
+<form action="">
+	<label>int 1  :  </label>
+	<input type="text" name="int1" value=""><br>
+	<br>
+	<label>int 2  :  </label>
+	<input type="text" name="int2" value=""><br>
+	<br>
+	<label>Result  :  </label>
+	<input type="text" name="result" value="">
+	<br>
+	<br>
+	<input type="Submit" name="add" value=" + ">
+	<input type="Submit" name="subtract" value=" - ">
+	<input type="Submit" name="multipy" value=" * ">
+	<input type="Submit" name="division" value=" / ">
+</form>
+</body>
+</html>

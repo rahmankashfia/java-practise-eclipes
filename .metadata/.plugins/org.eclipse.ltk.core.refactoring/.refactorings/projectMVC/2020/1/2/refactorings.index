@@ -1,0 +1,19 @@
+1578539546708	Rename resource 'formBankInfo3.jsp'
+1578539605562	Rename resource 'formBankInfo.jsp'
+1578539619799	Rename resource 'formContactInfo3.jsp'
+1578539703701	Delete element
+1578539714660	Delete elements
+1578539759815	Rename resource 'formContactInfo3.jsp'
+1578539773997	Rename resource 'formPersonalInfo3.jsp'
+1578591057282	Move 'formPersonalInfo.jsp' to 'html'
+1578591061411	Move 'formBankInfo.html' to 'jsp'
+1578591075213	Rename resource 'formBankInfo.html'
+1578591100884	Rename resource 'formPersonalInfo.jsp'
+1578593261754	Move 'index.html' to 'WEB-INF'
+1578593706739	Move 'index.html' to 'WebContent'
+1578593745532	Move 'jsp' to 'WebContent'
+1578593756505	Move 'html' to 'WebContent'
+1578593791963	Delete element
+1578598146567	Delete element
+1578598690783	Rename type 'EMailBO'
+1578598739058	Rename type 'EMailDBAccess'

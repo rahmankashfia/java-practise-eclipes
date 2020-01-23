@@ -1,0 +1,29 @@
+package apex.advance.java.must;
+
+public class BalancedBracket {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean match = false;
+		String[] str = {"()()()(", "", ")()(()", "()()()"};
+		for (String s : str) {
+			if (s.length() == 0) {
+				System.out.println("String is Empty");
+			} else if (s.length() % 2 == 0) {
+				for (int j = 0; j < s.length(); j++) {
+					if (s.charAt(j) == '(') {
+						// push
+					} else if (s.charAt(j) == ')') {
+						//pop
+					}
+				}
+			}
+		
+		}
+
+	}
+
+}
