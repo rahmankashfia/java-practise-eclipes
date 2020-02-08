@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Welcome</title>
+<style type="text/css">
+ul#menu li {
+	display: inline;
+}
+</style>
+</head>
+<body>
+
+	<form id="mainMenu" method="get" action="/TestProject/navigator">
+		<ul id="menu">
+			<li id="menu1">1<input name="registerPageRequest" type="submit" value="Register / Sign in / new user" /></li>
+			<li>2<input name="orderPageRequest" type="submit" value="Order" /></li>
+			<li>3<input name="returnPageRequest" type="submit" value="Return" /></li>
+			<li>4<input name="rewardPageRequest" type="submit" value="Reward Program" /></li>
+			<li>5<input name="productPageRequest" type="submit" value="product" /></li>
+			<li>6<input name="cartPageRequest" type="submit" value="cart" /></li>
+		</ul>
+	</form>
+
+
+
+
+</body>
+</html>

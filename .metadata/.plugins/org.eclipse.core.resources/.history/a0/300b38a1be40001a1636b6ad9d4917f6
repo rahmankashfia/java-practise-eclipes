@@ -1,0 +1,11 @@
+package apex.advance.java;
+
+import java.math.BigInteger;
+
+public class DoubletoInteger {
+	BigInteger i = new BigInteger("1000000000000000000000000000001");
+
+	
+	
+	
+}

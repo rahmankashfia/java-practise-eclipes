@@ -52,6 +52,9 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Rest-Hello-World"/>
+			<item value="user-rest"/>
+			<item value="contact-spring-intg-hb"/>
 			<item value="login-mvc"/>
 			<item value="hb-spring-mvc"/>
 			<item value="spring-mvc-annotation"/>
@@ -59,8 +62,12 @@
 			<item value="user-web"/>
 		</list>
 		<list key="name">
+			<item value="user-rest"/>
 		</list>
 		<list key="artifactId">
+			<item value="Rest-Hello-World"/>
+			<item value="user-rest"/>
+			<item value="contact-spring-intg-hb"/>
 			<item value="login-mvc"/>
 			<item value="hb-spring-mvc"/>
 			<item value="spring-mvc-annotation"/>

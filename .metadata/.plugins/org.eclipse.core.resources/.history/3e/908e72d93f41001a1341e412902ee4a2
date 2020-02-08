@@ -1,0 +1,10 @@
+package apex.advance.java;
+
+import javax.swing.text.StyledEditorKit.ForegroundAction;
+
+public class DoubletoInteger {
+	int[] ar = {1, 2};
+	for (int i = 0; i < ar.lenth; i++) {
+		
+	}
+}

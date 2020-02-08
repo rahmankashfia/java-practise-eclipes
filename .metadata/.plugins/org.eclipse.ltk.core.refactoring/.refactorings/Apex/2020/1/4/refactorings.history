@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;apex.advance.java.interviewques.java&apos; to &apos;SmallestSubArraySum.java&apos;&#x0A;- Original project: &apos;Apex&apos;&#x0A;- Original element: &apos;apex.advance.java.interviewques.java&apos;&#x0A;- Renamed element: &apos;apex.advance.java.SmallestSubArraySum.java&apos;" description="Rename compilation unit &apos;interviewques.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;apex.advance.java{interviewques.java" name="SmallestSubArraySum.java" references="false" stamp="1579905295791" version="1.0"/>
+</session>

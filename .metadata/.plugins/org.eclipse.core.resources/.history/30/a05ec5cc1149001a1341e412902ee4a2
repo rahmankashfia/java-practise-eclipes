@@ -1,0 +1,9 @@
+package apex.advance.java;
+
+public class PrintNameClient {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

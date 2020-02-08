@@ -1,0 +1,41 @@
+package apex.advance.java.coding.practice;
+
+import java.lang.management.GarbageCollectorMXBean;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class LRUCache {
+	
+	Deque<Integer> keyQueue;
+    HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+    int sizeLRU = 0;
+    int count = 0;
+    LRUCache(int capacity) {
+    	this.sizeLRU = capacity;
+    }
+    
+    public int get(int key) {
+        return hm.get(key);
+        //remove from linkedlist
+        //add again to the linkedlist
+    }
+    
+    public void put(int key, int value) {
+    	if(this.sizeLRU == count - 1) {
+    		//get key from linkedlist
+    		//remove thatkey vale from hashmap	
+    	}
+    	put(key, value);
+    	count++;
+        
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

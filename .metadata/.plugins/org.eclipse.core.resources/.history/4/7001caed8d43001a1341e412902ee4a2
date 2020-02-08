@@ -1,0 +1,10 @@
+package apex.advance.java;
+
+import java.util.Stack;
+import java.util.Vector;
+
+public interface VariableTest {
+	String string = new String("Hello");
+	public void printString();
+
+}
