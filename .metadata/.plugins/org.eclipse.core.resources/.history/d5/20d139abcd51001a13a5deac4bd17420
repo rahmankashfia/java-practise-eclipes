@@ -1,0 +1,10 @@
+
+public interface B {
+	default void show(){
+		System.out.println("Called B");
+	}
+	
+	static void showStatic(){
+		System.out.println("Called B");
+	}
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserOptionalDemo" project="Java8InterfaceSample" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="UserOptionalDemo" time="0.0">
+    <testcase name="optionalNullable" classname="UserOptionalDemo" time="0.0"/>
+    <testcase name="optionalNull" classname="UserOptionalDemo" time="0.0"/>
+    <testcase name="optionalStrNull" classname="UserOptionalDemo" time="0.0"/>
+  </testsuite>
+</testrun>

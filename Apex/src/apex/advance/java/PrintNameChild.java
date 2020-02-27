@@ -9,13 +9,17 @@ public class PrintNameChild extends PrintNameParent {
 		// TODO Auto-generated constructor stub
 		System.out.println("I am a child constructor.");
 	}
-
 	public static void PrintNameParentStatic() {
 		System.out.println("this is child class static method");
 	}
 	
 	public void PrintNameParentNonStatic() {
 		System.out.println("this is child class non-static method");
+	}
+	
+	public void methodHiding(){
+		System.out.println("This is a child method..");
+		
 	}
 
 }

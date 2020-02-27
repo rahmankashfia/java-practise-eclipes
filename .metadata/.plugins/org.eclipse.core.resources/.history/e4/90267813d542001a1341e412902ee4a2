@@ -1,8 +1,0 @@
-package apex.advance.java;
-
-public interface VariableTest {
-	String string;
-	
-	public void printString();
-
-}

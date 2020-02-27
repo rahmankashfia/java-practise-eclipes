@@ -1,0 +1,14 @@
+package apex.advance.java;
+
+public class threadClass {
+
+	public threadClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

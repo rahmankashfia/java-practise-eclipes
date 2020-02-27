@@ -18,5 +18,10 @@ public class PrintNameParent {
 		System.out.println("this is parent class non-static method");
 	}
 	
+	public void methodHiding(int a){
+		System.out.println("This is a number.." + a);
+		
+	}
+	
 	
 }
