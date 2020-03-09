@@ -1,0 +1,20 @@
+ package apex.advance.reverse.string;
+
+public class UsingStack {
+
+
+}
+
+public class Stack{
+	int size;
+	
+	public Stack(int size) {
+		// TODO Auto-generated constructor stub
+		size = this.size;
+	}
+	
+	public int size() {
+		return this.size;
+	}
+	
+}

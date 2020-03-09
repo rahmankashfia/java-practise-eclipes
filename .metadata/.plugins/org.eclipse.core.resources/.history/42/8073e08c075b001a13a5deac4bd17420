@@ -1,0 +1,26 @@
+package apex.advance.java;
+
+public class Fibonacci {
+	public static void main(String[] args) {
+		int n = 10;
+		int a = 0;
+		int b = 1;
+		int c = 0;
+		int i = 2;
+		System.out.println(a);
+		System.out.println(" " + b);
+		while(true) {
+			if (i == n) {
+				return;
+			} else {
+				b = a + b;
+				c = c + b;
+				b = c;
+				System.out.println(" " + c);
+				i++;
+			}
+			
+		}
+	
+	}
+}

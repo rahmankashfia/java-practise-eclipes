@@ -1,6 +1,7 @@
 package apex.advance.java;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
@@ -27,8 +28,11 @@ class TipTop{
 			 } 
 		 }
 		 //arr.sort(null);
-		 System.out.println(arr);
-		 System.out.println(move);
+		// System.out.println(arr);
+		// System.out.println(move);
+		 int[] a = {1,2};
+		 int[] b = a;
+		 System.out.println(Arrays.toString(b));
 	}
 	
 }

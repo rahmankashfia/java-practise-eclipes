@@ -21,15 +21,6 @@ public class PrintNameClient {
 		}
 		
 		Stack<Integer> st = new Stack<Integer>();
-		st.p
-		array 
-		goto
-		null
-		int
 		
-		Singleton Pattern, Factory Pattern, Abstract Factory Pattern, Builder Pattern
-		Prototype Pattern
-		
-		Adapter Pattern, Composite Pattern, Proxy Pattern, Flyweight Pattern, Facade Pattern
 	}
 }

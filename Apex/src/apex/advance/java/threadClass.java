@@ -8,7 +8,7 @@ public class threadClass extends Thread {
 	public void run(){
 		for(int i = 0; i <100; i++){
 			x = x + i;
-			System.out.println(x);
+			//System.out.println(x);
 		}
 	}
 
@@ -25,12 +25,13 @@ public class threadClass extends Thread {
 		Thread t4 = new threadClass();
 		Thread t5 = new threadClass();
 		t1.start();
-		System.out.println(tc.x);
+		//System.out.println(tc.x);
 		t2.start();
 		t3.start();
 		t4.start();
 		t5.start();
-		System.out.println(tc.x);
+		//System.out.println(tc.x);
+		t1.start();
 
 	}
 

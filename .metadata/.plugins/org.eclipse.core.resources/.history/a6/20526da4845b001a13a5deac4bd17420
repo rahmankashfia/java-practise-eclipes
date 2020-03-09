@@ -1,0 +1,7 @@
+package apex.advance.java;
+
+public class TestMainCanReturn {
+	public static void main(String[] args) {
+		
+	}
+}

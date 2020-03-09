@@ -1,0 +1,17 @@
+package apex.advance.java;
+
+public class StaticNestedTest {
+	int a = 9;
+	int b = 20;
+	
+	static class StaticInner {
+		int c = 4;
+		int d = a;
+		
+		public void print(){
+			System.out.println("Inner class");
+		}
+		
+	}
+
+}

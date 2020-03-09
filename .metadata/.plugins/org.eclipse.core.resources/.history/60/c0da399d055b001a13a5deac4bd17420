@@ -1,0 +1,30 @@
+package apex.advance.java;
+
+
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Set;
+import java.util.Map.Entry;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class SortBasedOnHashMapValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<String, Integer> hMap = new HashMap<String, Integer>();
+		hMap.put("S", 1);
+		hMap.put("N", 2);
+		hMap.put("K", 3);
+		
+		Set<Entry<String, Integer>> entrySet = hMap.entrySet();
+		
+		System.out.println(entrySet.toString());
+		
+		Comparator<Set<Entry<String, Integer>> sortByValueComparator = new Comparator<Set<Map.Entry<String,Integer>>>({
+		}
+		})
+
+	}
+
+}

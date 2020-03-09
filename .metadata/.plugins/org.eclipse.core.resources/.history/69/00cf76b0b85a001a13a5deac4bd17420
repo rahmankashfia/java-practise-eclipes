@@ -1,0 +1,15 @@
+package apex.advance.java;
+
+public class CheckDuplicateCharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String string = "google";
+		boolean[] count = new boolean[256];
+		System.out.println(count[0]);
+		
+		
+
+	}
+
+}

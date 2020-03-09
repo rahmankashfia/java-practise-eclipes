@@ -1,0 +1,6 @@
+package apex.advance.java;
+
+public class Snippet {
+	We use serialization when we want to convert an object into a sequence of bytes. This is useful when we want to save an object in a file or when we want to send an object through some streams or over the network via sockets which we can do only via serialization.
+}
+

@@ -6,6 +6,7 @@ public class Compares {
 		String alphabet = "abcdefghijklmnopqrstuvwxyz";
 		String charValue ="01111001111111111011111111";
 		int k = 2;
+		HashSet hs 
 		
 		for (int i = 0; i < s.length(); i++) {
 			System.out.println(s.charAt(i));

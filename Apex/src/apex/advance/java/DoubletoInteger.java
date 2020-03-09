@@ -1,8 +1,5 @@
 package apex.advance.java;
 
-import java.util.HashSet;
-
-
 
 public class DoubletoInteger {
 	public static void main(String[] args) {
