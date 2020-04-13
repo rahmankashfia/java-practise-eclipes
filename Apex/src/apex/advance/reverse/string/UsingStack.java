@@ -1,5 +1,7 @@
  package apex.advance.reverse.string;
 
+import org.omg.PortableServer.THREAD_POLICY_ID;
+
 public class UsingStack {
 
 
@@ -24,6 +26,13 @@ class Stack{
 			return true;
 		} else {
 			return false;
+		}
+		
+	}
+	
+	public void push(int i) {
+		if (this.top == this.size ) {
+			System.out.println("");
 		}
 		
 	}

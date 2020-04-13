@@ -1,0 +1,15 @@
+package apex.advance.java;
+
+public final class ImmutableClass {
+	final String string;
+	
+	public ImmutableClass(String string) {
+		this.string = string;
+	}
+	
+	public String getString(String s) {
+		return this.string; 
+	}
+	
+	
+}

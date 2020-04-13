@@ -1,0 +1,17 @@
+package apex.advance.java;
+
+public class TwoSum1 {
+	
+	public static void findPairs(int[] a, int target) {
+		
+		
+	}
+	
+	public static void main (String[] args){
+		int[] a = {1, 2, 3, 4, 5};
+		int target = 7;
+		TwoSum1.findPairs(a, target);
+		
+	}
+
+}

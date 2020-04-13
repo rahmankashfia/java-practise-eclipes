@@ -1,0 +1,10 @@
+package apex.advance.java;
+
+public class TestRefValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

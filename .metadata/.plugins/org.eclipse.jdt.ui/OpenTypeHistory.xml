@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=Apex/src&lt;apex.advance.java{VariableTest.java[VariableTest" modifiers="513" timestamp="1580408744000"/>
-<typeInfo handle="=Apex/src&lt;apex.advance.java{PrintNameParent.java[PrintNameParent" modifiers="1" timestamp="1581013866000"/>
+<typeInfo handle="=Apex/src&lt;apex.advance.java{PrintNameParent.java[PrintNameParent" modifiers="1" timestamp="1581647003000"/>
+<typeInfo handle="=Java8InterfaceSample/src&lt;{A.java[A" modifiers="513" timestamp="1581975340000"/>
+<typeInfo handle="=Java8InterfaceSample/src&lt;{B.java[B" modifiers="513" timestamp="1581975497000"/>
 </typeInfoHistroy>

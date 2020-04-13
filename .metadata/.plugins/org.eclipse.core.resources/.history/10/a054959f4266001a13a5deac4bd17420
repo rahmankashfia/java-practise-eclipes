@@ -1,0 +1,26 @@
+package apex.advance.java;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+public class TestGenericType {
+	public static void main(String[] args) {
+		TestGenericType t1=new TestGenericType();
+		Employee e1 = new Employee(1);
+		List ls = new ArrayList<Employee>();
+		ls.add(e1);
+		System.out.println(ls.toString());
+		
+	}
+	static class Employee{
+		int id;
+		String name;
+		Employee(int id){
+			this.id= id;
+		}
+	}
+	
+
+}

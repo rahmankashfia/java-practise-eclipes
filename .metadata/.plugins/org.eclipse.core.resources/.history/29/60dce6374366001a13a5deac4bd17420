@@ -1,0 +1,36 @@
+package apex.advance.java;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import apex.advance.java.TestGenericType.Employee;
+
+
+
+public class TestGenericType {
+	public static void main(String[] args) {
+		Employee e1 = new Employee(1,"parshva");
+		List ls = new ArrayList<Employee>();
+		int id=1;
+		ls.add(id,"sss");
+		System.out.println(ls.toString());
+		
+	}
+	static class Employee{
+		int id;
+		String name;
+		Employee(int id,String name){
+			this.id= id;
+			this.name=name;
+		}
+		/* (non-Javadoc)
+		 * @see java.lang.Object#toString()
+		 */
+		@Override
+		public String toString() {
+			return "Employee [id=" + id + ", name=" + name + "]";
+		}
+	}
+	
+
+}

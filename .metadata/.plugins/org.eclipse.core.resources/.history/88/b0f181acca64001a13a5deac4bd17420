@@ -1,0 +1,23 @@
+package apex.advance.java;
+
+public final class ImmutableClass {
+	final String string;
+	
+	public ImmutableClass(){
+		super();
+	}
+	public ImmutableClass(String string) {
+		this.string = string;
+	}
+	
+	public String getString(String s) {
+		return this.string; 
+	}
+	
+	public static void main(String[] args) {
+		ImmutableClass immutableClass = new ImmutableClass("Kashfia");
+		
+	
+	}
+	
+}
